@@ -1,0 +1,594 @@
+@INPROCEEDINGS{Hosseini2015-uu,
+  title      = {Noise resistant design of wavelet based multiresolution control},
+  author     = {Hosseini, Eghbal A and Sadjadian, Houman},
+  booktitle  = {2015 American Control Conference (ACC)},
+  publisher  = {IEEE},
+  eventtitle = {2015 American Control Conference (ACC)},
+  venue      = {Chicago, IL, USA},
+  pages      = {4959--4963},
+  date       = {2015-07},
+  abstract   = {In this paper a new method for noise cancellation in a class of
+                wavelet based multiresolution controllers is proposed. Noise
+                cancelation is based on hard thresholding of detail signals in
+                the decomposition stage of the controller. We took advantage of
+                the fact that noise mainly affects high frequency contents of
+                the error signal that is used by the controller, and used hard
+                thresholding to filter their effect in the subsequent control
+                output. The resulting controller outperforms conventional PID
+                and multiresolution PID controllers in closed-loop feedback
+                system design. We tested the performance of the new controller
+                by implementing a n integral plus dead time process used
+                integral of the time-weighted absolute error criteria (ITAE) to
+                tune and compare different controller designs.},
+  urldate    = {2026-01-30},
+  language   = {en}
+}
+
+@ARTICLE{Wolf2023-cr,
+  title        = {{WhisBERT}: Multimodal text-audio language modeling on {100M}
+                  words},
+  author       = {Wolf, Lukas and Kotar, Klemen and Tuckute, Greta and Hosseini,
+                  Eghbal and Regev, Tamar and Wilcox, Ethan and Warstadt, Alex},
+  editor       = {Warstadt, Alex and Mueller, Aaron and Choshen, Leshem and
+                  Wilcox, Ethan and Zhuang, Chengxu and Ciro, Juan and Mosquera,
+                  Rafael and Paranjabe, Bhargavi and Williams, Adina and Linzen,
+                  Tal and Cotterell, Ryan},
+  journaltitle = {arXiv [cs.CL]},
+  eventtitle   = {Proceedings of the BabyLM Challenge at the 27th Conference on
+                  Computational Natural Language Learning},
+  venue        = {Singapore},
+  pages        = {225--230},
+  date         = {2023-12-05},
+  eprinttype   = {arXiv},
+  eprintclass  = {cs.CL},
+  abstract     = {Training on multiple modalities of input can augment the
+                  capabilities of a language model. Here, we ask whether such a
+                  training regime can improve the quality and efficiency of
+                  these systems as well. We focus on text--audio and introduce
+                  Whisbert, which is inspired by the text--image approach of
+                  FLAVA \citep{singh\_flava\_2022}. In accordance with Babylm
+                  \citep{warstadt2023papers} guidelines, we pretrain Whisbert on
+                  a dataset comprising only 100 million words plus their
+                  corresponding speech from the word-aligned version of the
+                  People's Speech dataset \citep{galvez\_peoples\_2021}. To
+                  assess the impact of multimodality, we compare versions of the
+                  model that are trained on text only and on both audio and text
+                  simultaneously. We find that while Whisbert is able to perform
+                  well on multimodal masked modeling and surpasses the Babylm
+                  baselines in most benchmark tasks, it struggles to optimize
+                  its complex objective and outperform its text-only Whisbert
+                  baseline.}
+}
+
+@ARTICLE{Hosseini2024-ud,
+  title        = {Universality of representation in biological and artificial
+                  neural networks},
+  author       = {Hosseini, Eghbal and Casto, Colton and Zaslavsky, Noga and
+                  Conwell, Colin and Richardson, Mark and Fedorenko, Evelina},
+  journaltitle = {bioRxivorg},
+  pages        = {2024.12.26.629294},
+  date         = {2024-12-26},
+  abstract     = {Many artificial neural networks (ANNs) trained with
+                  ecologically plausible objectives on naturalistic data align
+                  with behavior and neural representations in biological
+                  systems. Here, we show that this alignment is a consequence of
+                  convergence onto the same representations by high-performing
+                  ANNs and by brains. We developed a method to identify stimuli
+                  that systematically vary the degree of inter-model
+                  representation agreement. Across language and vision, we then
+                  showed that stimuli from high- and low-agreement sets
+                  predictably modulated model-to-brain alignment. We also
+                  examined which stimulus features distinguish high- from
+                  low-agreement sentences and images. Our results establish
+                  representation universality as a core component in the
+                  model-to-brain alignment and provide a new approach for using
+                  ANNs to uncover the structure of biological representations
+                  and computations.},
+  urldate      = {2026-01-30},
+  language     = {en}
+}
+
+@ARTICLE{Hosseini2017-ub,
+  title        = {The decay of motor adaptation to novel movement dynamics
+                  reveals an asymmetry in the stability of motion
+                  state-dependent learning},
+  author       = {Hosseini, Eghbal A and Nguyen, Katrina P and Joiner, Wilsaan M},
+  journaltitle = {PLoS Comput. Biol.},
+  publisher    = {Public Library of Science (PLoS)},
+  volume       = {13},
+  issue        = {5},
+  pages        = {e1005492},
+  date         = {2017-05-08},
+  abstract     = {Motor adaptation paradigms provide a quantitative method to
+                  study short-term modification of motor commands. Despite the
+                  growing understanding of the role motion states (e.g.,
+                  velocity) play in this form of motor learning, there is little
+                  information on the relative stability of memories based on
+                  these movement characteristics, especially in comparison to
+                  the initial adaptation. Here, we trained subjects to make
+                  reaching movements perturbed by force patterns dependent upon
+                  either limb position or velocity. Following training, subjects
+                  were exposed to a series of error-clamp trials to measure the
+                  temporal characteristics of the feedforward motor output
+                  during the decay of learning. The compensatory force patterns
+                  were largely based on the perturbation kinematic (e.g.,
+                  velocity), but also showed a small contribution from the other
+                  motion kinematic (e.g., position). However, the velocity
+                  contribution in response to the position-based perturbation
+                  decayed at a slower rate than the position contribution to
+                  velocity-based training, suggesting a difference in stability.
+                  Next, we modified a previous model of motor adaptation to
+                  reflect this difference and simulated the behavior for
+                  different learning goals. We were interested in the stability
+                  of learning when the perturbations were based on different
+                  combinations of limb position or velocity that subsequently
+                  resulted in biased amounts of motion-based learning. We
+                  trained additional subjects on these combined motion-state
+                  perturbations and confirmed the predictions of the model.
+                  Specifically, we show that (1) there is a significant
+                  separation between the observed gain-space trajectories for
+                  the learning and decay of adaptation and (2) for combined
+                  motion-state perturbations, the gain associated to changes in
+                  limb position decayed at a faster rate than the
+                  velocity-dependent gain, even when the position-dependent gain
+                  at the end of training was significantly greater.
+                  Collectively, these results suggest that the state-dependent
+                  adaptation associated with movement velocity is relatively
+                  more stable than that based on position.},
+  urldate      = {2026-01-30},
+  language     = {en}
+}
+
+@ARTICLE{Regev2024-bq,
+  title        = {Neural populations in the language network differ in the size
+                  of their temporal receptive windows},
+  author       = {Regev, Tamar I and Casto, Colton and Hosseini, Eghbal A and
+                  Adamek, Markus and Ritaccio, Anthony L and Willie, Jon T and
+                  Brunner, Peter and Fedorenko, Evelina},
+  journaltitle = {Nat. Hum. Behav.},
+  publisher    = {Springer Science and Business Media LLC},
+  volume       = {8},
+  issue        = {10},
+  pages        = {1924--1942},
+  date         = {2024-10-26},
+  abstract     = {Despite long knowing what brain areas support language
+                  comprehension, our knowledge of the neural computations that
+                  these frontal and temporal regions implement remains limited.
+                  One important unresolved question concerns functional
+                  differences among the neural populations that comprise the
+                  language network. Here we leveraged the high spatiotemporal
+                  resolution of human intracranial recordings (n = 22) to
+                  examine responses to sentences and linguistically degraded
+                  conditions. We discovered three response profiles that differ
+                  in their temporal dynamics. These profiles appear to reflect
+                  different temporal receptive windows, with average windows of
+                  about 1, 4 and 6 words, respectively. Neural populations
+                  exhibiting these profiles are interleaved across the language
+                  network, which suggests that all language regions have direct
+                  access to distinct, multiscale representations of linguistic
+                  input-a property that may be critical for the efficiency and
+                  robustness of language processing.},
+  urldate      = {2026-01-30},
+  language     = {en}
+}
+
+@ARTICLE{Nguyen2019-dl,
+  title        = {The 24-h savings of adaptation to novel movement dynamics
+                  initially reflects the recall of previous performance},
+  author       = {Nguyen, Katrina P and Zhou, Weiwei and McKenna, Erin and
+                  Colucci-Chang, Katrina and Bray, Laurence C Jayet and
+                  Hosseini, Eghbal A and Alhussein, Laith and Rezazad, Meena and
+                  Joiner, Wilsaan M},
+  journaltitle = {J. Neurophysiol.},
+  publisher    = {American Physiological Society},
+  volume       = {122},
+  issue        = {3},
+  pages        = {933--946},
+  date         = {2019-09-01},
+  abstract     = {Humans rapidly adapt reaching movements in response to
+                  perturbations (e.g., manipulations of movement dynamics or
+                  visual feedback). Following a break, when reexposed to the
+                  same perturbation, subjects demonstrate savings, a faster
+                  learning rate compared with the time course of initial
+                  training. Although this has been well studied, there are open
+                  questions on the extent early savings reflects the rapid
+                  recall of previous performance. To address this question, we
+                  examined how the properties of initial training (duration and
+                  final adaptive state) influence initial single-trial
+                  adaptation to force-field perturbations when training sessions
+                  were separated by 24 h. There were two main groups that were
+                  distinct based on the presence or absence of a washout period
+                  at the end of day 1 (with washout vs. without washout). We
+                  also varied the training duration on day 1 (15, 30, 90, or 160
+                  training trials), resulting in 8 subgroups of subjects. We
+                  show that single-trial adaptation on day 2 scaled with
+                  training duration, even for similar asymptotic levels of
+                  learning on day 1 of training. Interestingly, the temporal
+                  force profile following the first perturbation on day 2
+                  matched that at the end of day 1 for the longest training
+                  duration group that did not complete the washout. This
+                  correspondence persisted but was significantly lower for
+                  shorter training durations and the washout subject groups.
+                  Collectively, the results suggest that the adaptation observed
+                  very early in reexposure results from the rapid recall of the
+                  previously learned motor recalibration but is highly dependent
+                  on the initial training duration and final adaptive state.NEW
+                  \& NOTEWORTHY The extent initial readaptation reflects the
+                  recall of previous motor performance is largely unknown. We
+                  examined early single-trial force-field adaptation on the
+                  second day of training and distinguished initial retention
+                  from recall. We found that the single-trial adaptation
+                  following the 24-h break matched that at the end of the first
+                  day, but this recall was modified by the training duration and
+                  final level of learning on the first day of training.},
+  urldate      = {2026-01-30},
+  keywords     = {motor adaptation; motor memory; recall; savings},
+  language     = {en}
+}
+
+@ARTICLE{Wang2020-cx,
+  title        = {Reinforcement regulates timing variability in thalamus},
+  author       = {Wang, Jing and Hosseini, Eghbal and Meirhaeghe, Nicolas and
+                  Akkad, Adam and Jazayeri, Mehrdad},
+  journaltitle = {Elife},
+  publisher    = {eLife Sciences Publications, Ltd},
+  volume       = {9},
+  issue        = {e55872},
+  date         = {2020-12-01},
+  abstract     = {Learning reduces variability but variability can facilitate
+                  learning. This paradoxical relationship has made it
+                  challenging to tease apart sources of variability that degrade
+                  performance from those that improve it. We tackled this
+                  question in a context-dependent timing task requiring humans
+                  and monkeys to flexibly produce different time intervals with
+                  different effectors. We identified two opposing factors
+                  contributing to timing variability: slow memory fluctuation
+                  that degrades performance and reward-dependent exploratory
+                  behavior that improves performance. Signatures of these
+                  opposing factors were evident across populations of neurons in
+                  the dorsomedial frontal cortex (DMFC), DMFC-projecting neurons
+                  in the ventrolateral thalamus, and putative target of DMFC in
+                  the caudate. However, only in the thalamus were the
+                  performance-optimizing regulation of variability aligned to
+                  the slow performance-degrading memory fluctuations. These
+                  findings reveal how variability caused by exploratory behavior
+                  might help to mitigate other undesirable sources of
+                  variability and highlight a potential role for thalamocortical
+                  projections in this process.},
+  urldate      = {2026-01-30},
+  keywords     = {Thalamus; behavioral variability; human; neuroscience;
+                  reinforcement learning; rhesus macaque; timing},
+  language     = {en}
+}
+
+@ARTICLE{Alhussein2019-jr,
+  title        = {Dissociating effects of error size, training duration, and
+                  amount of adaptation on the ability to retain motor memories},
+  author       = {Alhussein, Laith and Hosseini, Eghbal A and Nguyen, Katrina P
+                  and Smith, Maurice A and Joiner, Wilsaan M},
+  journaltitle = {J. Neurophysiol.},
+  publisher    = {American Physiological Society},
+  volume       = {122},
+  issue        = {5},
+  pages        = {2027--2042},
+  date         = {2019-11-01},
+  abstract     = {Extensive computational and neurobiological work has focused
+                  on how the training schedule, i.e., the duration and rate at
+                  which an environmental disturbance is presented, shapes the
+                  formation of motor memories. If long-lasting benefits are to
+                  be derived from motor training, however, retention of the
+                  performance improvements gained during practice is essential.
+                  Thus a better understanding of mechanisms that promote
+                  retention could lead to the design of more effective training
+                  procedures. The few studies that have investigated how
+                  retention depends on the training schedule have suggested that
+                  the gradual exposure of a perturbation leads to improved
+                  retention of motor memory compared with an abrupt exposure.
+                  However, several of these previous studies showed small
+                  effects, and although some controlled the training duration
+                  and others the level of learning, none have controlled both.
+                  In the present study we disambiguated both of these effects
+                  from exposure rate by systematically varying the duration of
+                  training, type of trained dynamics, and exposure rate for
+                  these dynamics in human force-field adaptation. After
+                  controlling for both training duration and the amount of
+                  learning, we found essentially identical retention when
+                  comparing gradual and abrupt training for two different types
+                  of force-field dynamics. By contrast, we found that retention
+                  was markedly higher for long-duration compared with
+                  short-duration training for both types of dynamics. These
+                  results demonstrate that the duration of training has a far
+                  greater effect on the retention of motor memory than the
+                  exposure rate during training. We show that a multirate
+                  learning model provides a computational mechanism for these
+                  findings.NEW \& NOTEWORTHY Previous studies have suggested
+                  that a gradual, incremental introduction of a novel
+                  environment is helpful for improving retention. However, we
+                  used experimental and computational approaches to demonstrate
+                  that previously reported improvements in retention associated
+                  with gradual introductions fail to persist when other factors,
+                  including the duration of training and the degree of initial
+                  learning, are accounted for.},
+  urldate      = {2026-01-30},
+  keywords     = {error size; motor adaptation; retention; training schedule},
+  language     = {en}
+}
+
+@ARTICLE{Hosseini2024-hq,
+  title        = {Artificial neural network language models predict human brain
+                  responses to language even after a developmentally realistic
+                  amount of training},
+  author       = {Hosseini, Eghbal A and Schrimpf, Martin and Zhang, Yian and
+                  Bowman, Samuel and Zaslavsky, Noga and Fedorenko, Evelina},
+  journaltitle = {Neurobiol. Lang. (Camb.)},
+  publisher    = {MIT Press},
+  volume       = {5},
+  issue        = {1},
+  pages        = {43--63},
+  date         = {2024-04-01},
+  abstract     = {Artificial neural networks have emerged as computationally
+                  plausible models of human language processing. A major
+                  criticism of these models is that the amount of training data
+                  they receive far exceeds that of humans during language
+                  learning. Here, we use two complementary approaches to ask how
+                  the models' ability to capture human fMRI responses to
+                  sentences is affected by the amount of training data. First,
+                  we evaluate GPT-2 models trained on 1 million, 10 million, 100
+                  million, or 1 billion words against an fMRI benchmark. We
+                  consider the 100-million-word model to be developmentally
+                  plausible in terms of the amount of training data given that
+                  this amount is similar to what children are estimated to be
+                  exposed to during the first 10 years of life. Second, we test
+                  the performance of a GPT-2 model trained on a 9-billion-token
+                  dataset to reach state-of-the-art next-word prediction
+                  performance on the human benchmark at different stages during
+                  training. Across both approaches, we find that (i) the models
+                  trained on a developmentally plausible amount of data already
+                  achieve near-maximal performance in capturing fMRI responses
+                  to sentences. Further, (ii) lower perplexity-a measure of
+                  next-word prediction performance-is associated with stronger
+                  alignment with human data, suggesting that models that have
+                  received enough training to achieve sufficiently high
+                  next-word prediction performance also acquire representations
+                  of sentences that are predictive of human fMRI responses. In
+                  tandem, these findings establish that although some training
+                  is necessary for the models' predictive ability, a
+                  developmentally realistic amount of training (∼100 million
+                  words) may suffice.},
+  urldate      = {2026-01-30},
+  keywords     = {ANN-neural data alignment; artificial neural network;
+                  development; human behavior; language network},
+  language     = {en}
+}
+
+@ARTICLE{Tremblay2020-gd,
+  title        = {An open resource for non-human primate optogenetics},
+  author       = {Tremblay, Sébastien and Acker, Leah and Afraz, Arash and
+                  Albaugh, Daniel L and Amita, Hidetoshi and Andrei, Ariana R
+                  and Angelucci, Alessandra and Aschner, Amir and Balan, Puiu F
+                  and Basso, Michele A and Benvenuti, Giacomo and Bohlen, Martin
+                  O and Caiola, Michael J and Calcedo, Roberto and Cavanaugh,
+                  James and Chen, Yuzhi and Chen, Spencer and Chernov, Mykyta M
+                  and Clark, Andrew M and Dai, Ji and Debes, Samantha R and
+                  Deisseroth, Karl and Desimone, Robert and Dragoi, Valentin and
+                  Egger, Seth W and Eldridge, Mark A G and El-Nahal, Hala G and
+                  Fabbrini, Francesco and Federer, Frederick and Fetsch,
+                  Christopher R and Fortuna, Michal G and Friedman, Robert M and
+                  Fujii, Naotaka and Gail, Alexander and Galvan, Adriana and
+                  Ghosh, Supriya and Gieselmann, Marc Alwin and Gulli, Roberto A
+                  and Hikosaka, Okihide and Hosseini, Eghbal A and Hu, Xing and
+                  Hüer, Janina and Inoue, Ken-Ichi and Janz, Roger and Jazayeri,
+                  Mehrdad and Jiang, Rundong and Ju, Niansheng and Kar, Kohitij
+                  and Klein, Carsten and Kohn, Adam and Komatsu, Misako and
+                  Maeda, Kazutaka and Martinez-Trujillo, Julio C and Matsumoto,
+                  Masayuki and Maunsell, John H R and Mendoza-Halliday, Diego
+                  and Monosov, Ilya E and Muers, Ross S and Nurminen, Lauri and
+                  Ortiz-Rios, Michael and O'Shea, Daniel J and Palfi, Stéphane
+                  and Petkov, Christopher I and Pojoga, Sorin and Rajalingham,
+                  Rishi and Ramakrishnan, Charu and Remington, Evan D and
+                  Revsine, Cambria and Roe, Anna W and Sabes, Philip N and
+                  Saunders, Richard C and Scherberger, Hansjörg and Schmid,
+                  Michael C and Schultz, Wolfram and Seidemann, Eyal and Senova,
+                  Yann-Suhan and Shadlen, Michael N and Sheinberg, David L and
+                  Siu, Caitlin and Smith, Yoland and Solomon, Selina S and
+                  Sommer, Marc A and Spudich, John L and Stauffer, William R and
+                  Takada, Masahiko and Tang, Shiming and Thiele, Alexander and
+                  Treue, Stefan and Vanduffel, Wim and Vogels, Rufin and
+                  Whitmire, Matthew P and Wichmann, Thomas and Wurtz, Robert H
+                  and Xu, Haoran and Yazdan-Shahmorad, Azadeh and Shenoy,
+                  Krishna V and DiCarlo, James J and Platt, Michael L},
+  journaltitle = {Neuron},
+  publisher    = {Elsevier BV},
+  volume       = {108},
+  issue        = {6},
+  pages        = {1075--1090.e6},
+  date         = {2020-12-23},
+  abstract     = {Optogenetics has revolutionized neuroscience in small
+                  laboratory animals, but its effect on animal models more
+                  closely related to humans, such as non-human primates (NHPs),
+                  has been mixed. To make evidence-based decisions in primate
+                  optogenetics, the scientific community would benefit from a
+                  centralized database listing all attempts, successful and
+                  unsuccessful, of using optogenetics in the primate brain. We
+                  contacted members of the community to ask for their
+                  contributions to an open science initiative. As of this
+                  writing, 45 laboratories around the world contributed more
+                  than 1,000 injection experiments, including precise details
+                  regarding their methods and outcomes. Of those entries, more
+                  than half had not been published. The resource is free for
+                  everyone to consult and contribute to on the Open Science
+                  Framework website. Here we review some of the insights from
+                  this initial release of the database and discuss
+                  methodological considerations to improve the success of
+                  optogenetic experiments in NHPs.},
+  urldate      = {2026-01-30},
+  keywords     = {Gene therapy; Monkey; Monkeys; Non-human primates; Nonhuman
+                  primates; Open Science; Optical control; Optogenetic;
+                  Optogenetics; Viral vectors},
+  language     = {en}
+}
+
+@ARTICLE{Remington2018-ny,
+  title        = {Flexible sensorimotor computations through rapid
+                  reconfiguration of cortical dynamics},
+  author       = {Remington, Evan D and Narain, Devika and Hosseini, Eghbal A
+                  and Jazayeri, Mehrdad},
+  journaltitle = {Neuron},
+  publisher    = {Elsevier},
+  volume       = {98},
+  issue        = {5},
+  pages        = {1005--1019.e5},
+  date         = {2018-06-06},
+  abstract     = {Neural mechanisms that support flexible sensorimotor
+                  computations are not well understood. In a dynamical system
+                  whose state is determined by interactions among neurons,
+                  computations can be rapidly reconfigured by controlling the
+                  system's inputs and initial conditions. To investigate whether
+                  the brain employs such control mechanisms, we recorded from
+                  the dorsomedial frontal cortex of monkeys trained to measure
+                  and produce time intervals in two sensorimotor contexts. The
+                  geometry of neural trajectories during the production epoch
+                  was consistent with a mechanism wherein the measured interval
+                  and sensorimotor context exerted control over cortical
+                  dynamics by adjusting the system's initial condition and
+                  input, respectively. These adjustments, in turn, set the speed
+                  at which activity evolved in the production epoch, allowing
+                  the animal to flexibly produce different time intervals. These
+                  results provide evidence that the language of dynamical
+                  systems can be used to parsimoniously link brain activity to
+                  sensorimotor computations.},
+  urldate      = {2026-01-30},
+  keywords     = {Dynamical Systems; cognitive flexibility; electrophysiology;
+                  frontal cortex; motor planning; population coding; recurrent
+                  neural networks; sensorimotor coordination; timing},
+  language     = {en}
+}
+
+@ARTICLE{Wang2018-my,
+  title        = {Flexible timing by temporal scaling of cortical responses},
+  author       = {Wang, Jing and Narain, Devika and Hosseini, Eghbal A and
+                  Jazayeri, Mehrdad},
+  journaltitle = {Nat. Neurosci.},
+  publisher    = {Nature Publishing Group},
+  volume       = {21},
+  issue        = {1},
+  pages        = {102--110},
+  date         = {2018-01},
+  abstract     = {Musicians can perform at different tempos, speakers can
+                  control the cadence of their speech, and children can flexibly
+                  vary their temporal expectations of events. To understand the
+                  neural basis of such flexibility, we recorded from the medial
+                  frontal cortex of nonhuman primates trained to produce
+                  different time intervals with different effectors. Neural
+                  responses were heterogeneous, nonlinear, and complex, and they
+                  exhibited a remarkable form of temporal invariance: firing
+                  rate profiles were temporally scaled to match the produced
+                  intervals. Recording from downstream neurons in the caudate
+                  and from thalamic neurons projecting to the medial frontal
+                  cortex indicated that this phenomenon originates within
+                  cortical networks. Recurrent neural network models trained to
+                  perform the task revealed that temporal scaling emerges from
+                  nonlinearities in the network and that the degree of scaling
+                  is controlled by the strength of external input. These
+                  findings demonstrate a simple and general mechanism for
+                  conferring temporal flexibility upon sensorimotor and
+                  cognitive functions.},
+  urldate      = {2026-01-30},
+  language     = {en}
+}
+
+@ARTICLE{Schrimpf2021-bq,
+  title        = {The neural architecture of language: Integrative modeling
+                  converges on predictive processing},
+  author       = {Schrimpf, Martin and Blank, Idan Asher and Tuckute, Greta and
+                  Kauf, Carina and Hosseini, Eghbal A and Kanwisher, Nancy and
+                  Tenenbaum, Joshua B and Fedorenko, Evelina},
+  journaltitle = {Proc. Natl. Acad. Sci. U. S. A.},
+  publisher    = {Proceedings of the National Academy of Sciences},
+  volume       = {118},
+  issue        = {45},
+  pages        = {e2105646118},
+  date         = {2021-11-09},
+  abstract     = {The neuroscience of perception has recently been
+                  revolutionized with an integrative modeling approach in which
+                  computation, brain function, and behavior are linked across
+                  many datasets and many computational models. By revealing
+                  trends across models, this approach yields novel insights into
+                  cognitive and neural mechanisms in the target domain. We here
+                  present a systematic study taking this approach to
+                  higher-level cognition: human language processing, our
+                  species' signature cognitive skill. We find that the most
+                  powerful "transformer" models predict nearly 100\% of
+                  explainable variance in neural responses to sentences and
+                  generalize across different datasets and imaging modalities
+                  (functional MRI and electrocorticography). Models' neural fits
+                  ("brain score") and fits to behavioral responses are both
+                  strongly correlated with model accuracy on the next-word
+                  prediction task (but not other language tasks). Model
+                  architecture appears to substantially contribute to neural
+                  fit. These results provide computationally explicit evidence
+                  that predictive processing fundamentally shapes the language
+                  comprehension mechanisms in the human brain.},
+  urldate      = {2026-01-30},
+  keywords     = {artificial neural networks; computational neuroscience; deep
+                  learning; language comprehension; neural recordings (fMRI and
+                  ECoG)},
+  language     = {en}
+}
+
+@ARTICLE{Lampinen2026-ty,
+  title        = {Linear representations in language models can change
+                  dramatically over a conversation},
+  author       = {Lampinen, Andrew Kyle and Li, Yuxuan and Hosseini, Eghbal and
+                  Bhardwaj, Sangnie and Shanahan, Murray},
+  journaltitle = {arXiv [cs.CL]},
+  date         = {2026-01-28},
+  eprinttype   = {arXiv},
+  eprintclass  = {cs.CL},
+  abstract     = {Language model representations often contain linear directions
+                  that correspond to high-level concepts. Here, we study the
+                  dynamics of these representations: how representations evolve
+                  along these dimensions within the context of (simulated)
+                  conversations. We find that linear representations can change
+                  dramatically over a conversation; for example, information
+                  that is represented as factual at the beginning of a
+                  conversation can be represented as non-factual at the end and
+                  vice versa. These changes are content-dependent; while
+                  representations of conversation-relevant information may
+                  change, generic information is generally preserved. These
+                  changes are robust even for dimensions that disentangle
+                  factuality from more superficial response patterns, and occur
+                  across different model families and layers of the model. These
+                  representation changes do not require on-policy conversations;
+                  even replaying a conversation script written by an entirely
+                  different model can produce similar changes. However,
+                  adaptation is much weaker from simply having a sci-fi story in
+                  context that is framed more explicitly as such. We also show
+                  that steering along a representational direction can have
+                  dramatically different effects at different points in a
+                  conversation. These results are consistent with the idea that
+                  representations may evolve in response to the model playing a
+                  particular role that is cued by a conversation. Our findings
+                  may pose challenges for interpretability and steering -- in
+                  particular, they imply that it may be misleading to use static
+                  interpretations of features or directions, or probes that
+                  assume a particular range of features consistently corresponds
+                  to a particular ground-truth value. However, these types of
+                  representational dynamics also point to exciting new research
+                  directions for understanding how models adapt to context.},
+  urldate      = {2026-01-30}
+}
+
+@INPROCEEDINGS{Hosseini2023-fw,
+  title     = {Large language models implicitly learn to straighten neural
+               sentence trajectories to construct a predictive representation of
+               natural language},
+  author    = {Hosseini, Eghbal and Fedorenko, Evelina},
+  editor    = {Oh, A and Naumann, T and Globerson, A and Saenko, K and Hardt, M
+               and Levine, S},
+  booktitle = {Advances in Neural Information Processing Systems},
+  publisher = {Curran Associates, Inc.},
+  volume    = {36},
+  pages     = {43918--43930},
+  date      = {2023}
+}
