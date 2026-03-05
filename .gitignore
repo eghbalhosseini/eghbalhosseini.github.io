@@ -604,3 +604,14 @@ TSWLatexianTemp*
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
 
+resume/par-*
+*.aux
+*.log
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.synctex.gz
+*.out
+.DS_Store
+.idea/
