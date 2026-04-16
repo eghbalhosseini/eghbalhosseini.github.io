@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eghbalhosseini.github.io/sitemap.xml

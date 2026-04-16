@@ -462,6 +462,10 @@
     SmoothScroll.init();
     ScrollSpy.init();
 
+    // Set footer year dynamically
+    const yearEl = document.getElementById('footer-year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
     // Load publications from JSON, then initialize dependent modules
     PublicationsLoader.init();
   });

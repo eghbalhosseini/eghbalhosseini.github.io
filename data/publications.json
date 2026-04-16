@@ -78,7 +78,7 @@
             "category": "language",
             "abstract": "Language model representations frequently contain linear directions corresponding to high-level concepts. We investigate how these representations evolve within the context of simulated conversations. We find that linear representations can change dramatically during a conversation. For instance, information considered factual at the beginning of a conversation might be represented as non-factual by the end, and vice versa. These changes are content-dependent; while conversation-relevant information representations may shift, generic information generally remains stable. The changes are robust even for dimensions that distinguish factuality from more superficial response patterns and are observed across different model families and layers. These representational shifts do not necessitate on-policy conversations; even replaying a conversation script from a different model can produce similar changes. However, adaptation is much weaker when a sci-fi story is simply presented as such. We also show that steering along a representational direction can have significantly different effects at various points in a conversation. These findings are consistent with the idea that representations may evolve as the model adopts a particular role cued by the conversation.",
             "links": {
-                "arXiv": "https://arxiv.org/abs/2501.xxxxx"
+                "arXiv": "https://arxiv.org/abs/2601.20834"
             }
         },
         {
