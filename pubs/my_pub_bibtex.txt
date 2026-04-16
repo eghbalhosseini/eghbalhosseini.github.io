@@ -1,3 +1,38 @@
+@INPROCEEDINGS{Cohen2026-rl,
+  title        = {Reinforcement learning: Computational modeling of learning
+                  and decision-making},
+  author       = {Cohen, Zach and Jagadish, Akshay K and Hosseini, Eghbal A and
+                  Eckstein, Maria K},
+  booktitle    = {Proceedings of the Analytical Connectionism Summer School},
+  series       = {Proceedings of Machine Learning Research},
+  publisher    = {PMLR},
+  volume       = {320},
+  year         = {2026},
+  note         = {Cohen, Jagadish, and Hosseini contributed equally; author
+                  order randomized},
+  abstract     = {Reinforcement learning (RL), as a computational modeling
+                  framework, is a formal approach to understanding and
+                  building agents, natural or artificial, that learn to make
+                  decisions based on rewards they receive from the
+                  environment. In this Lecture Notes, we begin by exploring
+                  how RL has historically been used in psychology and
+                  neuroscience to investigate reward-driven learning, before
+                  introducing it more formally from a machine learning
+                  perspective. We then demonstrate its utility in building
+                  cognitive models that explain the processes and mechanisms
+                  underlying human learning and decision-making at both the
+                  behavioral and neural levels. Finally, we discuss recent
+                  work that brings together the theory-driven approach taken
+                  by RL and the data-driven approach taken by artificial
+                  neural networks to build more predictive, yet interpretable,
+                  models of human behavior. Together, this work highlights the
+                  value of RL as a computational modeling framework for
+                  cognitive neuroscience.},
+  keywords     = {reinforcement learning; cognitive modeling; learning;
+                  decision-making},
+  language     = {en}
+}
+
 @INPROCEEDINGS{Hosseini2015-uu,
   title      = {Noise resistant design of wavelet based multiresolution control},
   author     = {Hosseini, Eghbal A and Sadjadian, Houman},

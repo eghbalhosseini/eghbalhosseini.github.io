@@ -29,6 +29,23 @@
     ],
     "publications": [
         {
+            "id": 18,
+            "title": "Reinforcement learning: Computational modeling of learning and decision-making",
+            "authors": [
+                "Cohen Z*",
+                "Jagadish AK*",
+                "Hosseini EA*",
+                "Eckstein MK"
+            ],
+            "venue": "PMLR Vol. 320 (Analytical Connectionism Summer School)",
+            "year": 2026,
+            "category": "other",
+            "abstract": "Reinforcement learning (RL), as a computational modeling framework, is a formal approach to understanding and building agents, natural or artificial, that learn to make decisions based on rewards they receive from the environment. In this Lecture Notes, we begin by exploring how RL has historically been used in psychology and neuroscience to investigate reward-driven learning, before introducing it more formally from a machine learning perspective. We then demonstrate its utility in building cognitive models that explain the processes and mechanisms underlying human learning and decision-making at both the behavioral and neural levels. Finally, we discuss recent work that brings together the theory-driven approach taken by RL and the data-driven approach taken by artificial neural networks to build more predictive, yet interpretable, models of human behavior. Together, this work highlights the value of RL as a computational modeling framework for cognitive neuroscience. *Equal contribution (Cohen, Jagadish, Hosseini); author order randomized.",
+            "links": {
+                "PDF": "pubs/cohen_jagadish_hosseini_ekstein.pdf"
+            }
+        },
+        {
             "id": 17,
             "title": "Context Structure Reshapes the Representational Geometry of Language Models",
             "authors": [
