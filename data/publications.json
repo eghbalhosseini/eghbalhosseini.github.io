@@ -8,7 +8,7 @@
                 9,
                 12,
                 13,
-                15
+                16
             ]
         },
         {
@@ -30,23 +30,6 @@
     "publications": [
         {
             "id": 18,
-            "title": "Reinforcement learning: Computational modeling of learning and decision-making",
-            "authors": [
-                "Cohen Z*",
-                "Jagadish AK*",
-                "Hosseini EA*",
-                "Eckstein MK"
-            ],
-            "venue": "PMLR Vol. 320 (Analytical Connectionism Summer School)",
-            "year": 2026,
-            "category": "other",
-            "abstract": "Reinforcement learning (RL), as a computational modeling framework, is a formal approach to understanding and building agents, natural or artificial, that learn to make decisions based on rewards they receive from the environment. In this Lecture Notes, we begin by exploring how RL has historically been used in psychology and neuroscience to investigate reward-driven learning, before introducing it more formally from a machine learning perspective. We then demonstrate its utility in building cognitive models that explain the processes and mechanisms underlying human learning and decision-making at both the behavioral and neural levels. Finally, we discuss recent work that brings together the theory-driven approach taken by RL and the data-driven approach taken by artificial neural networks to build more predictive, yet interpretable, models of human behavior. Together, this work highlights the value of RL as a computational modeling framework for cognitive neuroscience. *Equal contribution (Cohen, Jagadish, Hosseini); author order randomized.",
-            "links": {
-                "PDF": "pubs/cohen_jagadish_hosseini_ekstein.pdf"
-            }
-        },
-        {
-            "id": 17,
             "title": "Context Structure Reshapes the Representational Geometry of Language Models",
             "authors": [
                 "Hosseini EA",
@@ -64,7 +47,7 @@
             }
         },
         {
-            "id": 16,
+            "id": 17,
             "title": "Modulating Cross-Modal Convergence with Single-Stimulus, Intra-Modal Dispersion",
             "authors": [
                 "Hosseini EA",
@@ -77,12 +60,12 @@
             "category": "language",
             "abstract": "Neural networks exhibit a remarkable degree of representational convergence across diverse architectures, training objectives, and even data modalities. This convergence is predictive of alignment with brain representations. We introduce a methodology based on the Generalized Procrustes Algorithm to measure intra-modal representational convergence at the single-stimulus level, and apply it to vision models with different training objectives. We find that intra-modal dispersion strongly modulates alignment between vision and language models (cross-modal convergence). Specifically, stimuli with low intra-modal dispersion (high agreement among vision models) elicited significantly higher cross-modal alignment than those with high dispersion. This effect was consistent across various stimulus selection criteria and different pairings of vision and language models. Our results suggest that measuring convergence at the single-stimulus level can help understand the sources of convergence and divergence across modalities, and between neural networks and human neural representations.",
             "links": {
-                "OpenReview": "https://openreview.net/forum?id=Ab3pRobOhv",
+                "arXiv": "https://arxiv.org/abs/2604.21836",
                 "PDF": "pubs/Hosseini et al.- Modulating Cross-Modal Convergence with Single-Stimulus, Intra-Modal Dispersion-ICLR-realign-2026.pdf"
             }
         },
         {
-            "id": 15,
+            "id": 16,
             "title": "Linear representations in language models can change dramatically over a conversation",
             "authors": [
                 "Lampinen AK",
@@ -97,6 +80,23 @@
             "abstract": "Language model representations frequently contain linear directions corresponding to high-level concepts. We investigate how these representations evolve within the context of simulated conversations. We find that linear representations can change dramatically during a conversation. For instance, information considered factual at the beginning of a conversation might be represented as non-factual by the end, and vice versa. These changes are content-dependent; while conversation-relevant information representations may shift, generic information generally remains stable. The changes are robust even for dimensions that distinguish factuality from more superficial response patterns and are observed across different model families and layers. These representational shifts do not necessitate on-policy conversations; even replaying a conversation script from a different model can produce similar changes. However, adaptation is much weaker when a sci-fi story is simply presented as such. We also show that steering along a representational direction can have significantly different effects at various points in a conversation. These findings are consistent with the idea that representations may evolve as the model adopts a particular role cued by the conversation.",
             "links": {
                 "arXiv": "https://arxiv.org/abs/2601.20834"
+            }
+        },
+        {
+            "id": 15,
+            "title": "Reinforcement learning: Computational modeling of learning and decision-making",
+            "authors": [
+                "Cohen Z*",
+                "Jagadish AK*",
+                "Hosseini EA*",
+                "Eckstein MK"
+            ],
+            "venue": "PMLR Vol. 320 (Analytical Connectionism Summer School)",
+            "year": 2026,
+            "category": "other",
+            "abstract": "Reinforcement learning (RL), as a computational modeling framework, is a formal approach to understanding and building agents, natural or artificial, that learn to make decisions based on rewards they receive from the environment. In this Lecture Notes, we begin by exploring how RL has historically been used in psychology and neuroscience to investigate reward-driven learning, before introducing it more formally from a machine learning perspective. We then demonstrate its utility in building cognitive models that explain the processes and mechanisms underlying human learning and decision-making at both the behavioral and neural levels. Finally, we discuss recent work that brings together the theory-driven approach taken by RL and the data-driven approach taken by artificial neural networks to build more predictive, yet interpretable, models of human behavior. Together, this work highlights the value of RL as a computational modeling framework for cognitive neuroscience. *Equal contribution (Cohen, Jagadish, Hosseini); author order randomized.",
+            "links": {
+                "PDF": "pubs/cohen_jagadish_hosseini_ekstein.pdf"
             }
         },
         {
