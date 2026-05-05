@@ -22,6 +22,31 @@
 % If you need to further customise your biblatex setup e.g. with \DeclareFieldFormat etc please add them here AFTER loading settings.sty. For example, to remove the default "[Online] Available:" prefix before URLs when using the IEEE style:
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
+% Custom sort: year (descending) -> presort -> name -> title.
+% Built-in templates put presort first, which causes role groups to span years.
+\DeclareSortingTemplate{ydpt}{
+  \sort[direction=descending]{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort{
+    \field{presort}
+  }
+  \sort{
+    \field{sortname}
+    \field{author}
+    \field{editor}
+    \field{translator}
+    \field{sorttitle}
+    \field{title}
+  }
+  \sort{
+    \field{sorttitle}
+    \field{title}
+  }
+}
+\ExecuteBibliographyOptions{sorting=ydpt}
+
 %% Only needed if you want a Publication List
 \addbibresource{relevant-bib.bib}
 \addbibresource{own-bib.bib}
@@ -32,7 +57,7 @@
 % \mynames{Lim/Lian\bibnamedelima Tze}
 
 %% You can specify multiple names like this, especially if you have changed your name or if you need to highlight multiple authors. See items 6–9 in the example "Journal Articles" output.
-\mynames{Hosseini/Eghbal\bibnamedelima A}
+\mynames{Hosseini/Eghbal\bibnamedelima A, Hosseini*/Eghbal\bibnamedelima A, Hosseini†/Eghbal\bibnamedelima A}
 %% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
 
@@ -74,19 +99,10 @@
 \vspace{1mm} \
   %\makefield{\faVolumeUp[regular]}{\textipa{e\textramshornsˈb\textscripta \textlengthmark l}}
 
-    \makefield{\faEnvelope[regular]}{\href{mailto:ehoseini@mit.edu}{\texttt{ehoseini@mit.edu}}}
-  \hspace{2.5mm} 
-  \makefield{\faPhone}{\texttt{+1(703) 789-6512}}  % <-- Add your phone number here
-  \hspace{2.5mm}
-  %\hspace{2.5mm} \makefield{\faTwitter}{\href{https://twitter.com/eghbal_hosseini}%{\texttt{@eghbal\_hosseini}}}
-  \hspace{2.5mm} \makefield{\faLinkedin}
-  {\href{https://www.linkedin.com/in/eghbalhosseini/}{\texttt{eghbalhosseini}}}
+  \makefield{\faEnvelope[regular]}{\href{mailto:ehoseini@mit.edu}{\texttt{ehoseini@mit.edu}}}\hspace{2.5mm}\makefield{\faGlobe}{\url{https://eghbalhosseini.github.io}}
 
   %% Next line
-  %\makefield{\href{https://scholar.google.com/}{\faGraduationCap}}
-  \makefield{\faGraduationCap}
-  {\href{https://scholar.google.com/citations?user=JTZGsngAAAAJ&hl=en}{\texttt{Eghbal A. Hosseini}}}
-   \makefield{\faGlobe}{\url{https://eghbalhosseini.github.io}}
+  \makefield{\faLinkedin}{\href{https://www.linkedin.com/in/eghbalhosseini/}{\texttt{eghbalhosseini}\phantom{\texttt{xx}}}}\hspace{2.5mm}\makefield{\faGraduationCap}{\href{https://scholar.google.com/citations?user=r58bDGAAAAAJ&hl=en}{\texttt{Eghbal A. Hosseini}}}
   % You can use a tabular here if you want to line up the fields.
 }
 
@@ -100,6 +116,7 @@
 
 \begin{document}
 \makeheaders[c]
+\input{summary}
 %\input{publications}
 %\makerubric{employment}
 \makerubric{position}
@@ -109,6 +126,7 @@
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
 %\input{publications}
 \input{publications}
+\makerubric{talks}
 \makerubric{skills}
 \makerubric{misc}
 
